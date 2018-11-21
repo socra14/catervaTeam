@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.recycler.socra.recycler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_micon_round"
+        android:label="CATERVA TEAM"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fabian_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".dani"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".juan"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".agus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".emi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".javi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".kili"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".manu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".narro"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".rafa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".zeus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".emili"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".manolo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".juanatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".daniatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".agusatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".emilioatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fabianatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".javiatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".kiliatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".manuatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".narroatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".rafaatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".zeusatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".emiliatrr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".manoloatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".luisatr"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".luis"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".rocioatr" />
+        <activity android:name=".rocio"></activity>
+    </application>
+
+</manifest>
